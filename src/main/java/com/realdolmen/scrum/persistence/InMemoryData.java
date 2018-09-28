@@ -22,7 +22,7 @@ public class InMemoryData implements Repository {
     }
 
     @Override
-    public Collection<Ingredient> getIngredients() {
+    public List<Ingredient> getIngredients() {
         return ingredientList;
     }
 

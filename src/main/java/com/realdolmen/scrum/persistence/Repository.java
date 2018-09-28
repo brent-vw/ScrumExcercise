@@ -4,13 +4,14 @@ import com.realdolmen.scrum.domain.Ingredient;
 import com.realdolmen.scrum.domain.Recipe;
 
 import java.util.Collection;
+import java.util.List;
 
 public interface Repository {
 
 
-    Collection<Ingredient> getIngredients();
+    List<Ingredient> getIngredients();
 
-    Collection<Recipe> getRecipes();
+    List<Recipe> getRecipes();
 
 
 }
